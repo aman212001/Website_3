@@ -149,6 +149,16 @@ body{
     border:rgb(240, 76, 103) solid 1px;
 }
 
+.outfit-img{
+transition: transform .2s;
+}
+
+.outfit-img:hover{
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.05); 
+}
+
 #banner{
     position: relative;
 }
@@ -215,12 +225,17 @@ body{
 }
 
 .col-4:hover{
-    opacity: 60%;
     cursor: pointer;
 }
 
 .col-4 img{
     width: 100%;
+    transition: transform .2s;
+}
+.col-4 img:hover{
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.05); 
 }
 
 .ratings{
@@ -260,4 +275,146 @@ body{
     padding-bottom: 15px;
     width: 150px;
     color: white;
+    background-color: rgb(240, 76, 103);
+}
+
+.banner1_button:hover{
+    background-color: white;
+    color: rgb(240, 76, 103);
+    border: 1px solid rgb(240, 76, 103);
+}
+
+/* Sayings */
+.clients{
+    background-color: 	#faebd7;
+    width: 100%;
+    height: 400px;
+    padding-top: 90px;
+}
+
+#say{
+    padding-top: 20px;
+}
+
+/*Tiles Bottom */
+.support{
+    width: 100%;
+    height: 330px;
+}
+
+.support .support-content{
+    
+    height: 330px;
+    display: flex;
+}
+
+.support ,.support-content .support-section{
+    flex: 1;
+    padding: 45px;
+    
+    
+}
+
+.icon-support{
+    color: #888888;
+    font-size: 40px;
+}
+
+#line{
+    padding-top: 30px;
+    height: 200px;
+    border-right: 1px solid rgb(218, 213, 213);
+}
+
+.fa-truck:before {
+    margin-right: 31px;
+}
+
+.fa-money:before{
+    margin-right: 31px;
+}
+
+.fa-headphones::before{
+    margin-right: 31px;
+}
+
+.subscribe-container{
+    background-color: rgb(240, 37, 71);
+}
+
+.subscribe-input{
+    height: 50px;
+    border: none;
+    width: 400px;
+}
+
+.subscribe-input[type="text"]::placeholder{
+    padding-left: 10px; 
+}
+
+.subscribe-button{
+    width: 200px;
+    border: none;
+    background-color: rgb(36, 35, 35);
+    color: white
+}
+
+.subscribe-button:hover{
+    background-color: black;
+}
+
+
+/*Footer*/
+.footer{
+    background-color: black;
+    color: rgb(201, 196, 196);
+    height: 400px;
+    position: relative;
+}
+
+.footer .footer-content{
+   
+    height: 350px;
+    display: flex;
+}
+
+.footer .footer-content .footer-section{
+    flex: 1;
+    padding: 45px;
+    /* border: 1px solid white; */
+}
+
+.footer .footer-bottom{
+    height: 50px;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 20px;
+    border-top: 1px solid grey;
+}
+
+.link-footer{
+    font-size: 20px;
+    padding: 5px;
+    color: white;
+}
+
+.help{
+    padding: 45px;
+}
+
+.link-footer:hover{
+    color:rgb(240, 37, 71);
+}
+
+.footer-link{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-link:hover{
+    color:rgb(240, 37, 71);
 }
