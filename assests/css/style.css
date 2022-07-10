@@ -1,0 +1,263 @@
+body{
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.navbar{
+    border-bottom: rgb(218, 218, 218) solid 1px;
+    background-color: white;
+}
+
+.nav-item{
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.nav-item:hover{
+    color:rgb(240, 76, 103);
+}
+
+.nav-link{
+    font-size: 14px;
+    color: black;
+}
+
+.nav-item{
+    font-size: 14px;
+    color: black;
+}
+
+.navbar-nav{
+    margin-left: 100px;
+}
+.collapse{
+    font-size: 15px;
+}
+
+.right-nav-item{
+    margin: 3px 8px 8px 8px;
+}
+.left-nav-item{
+    margin: 3px 5px 5px 5px;
+}
+
+.fa{
+    padding-right: 6px;
+    font-size: 16px;
+}
+.dropdown-menu{
+    font-size: 14px;
+    min-width: 4rem !important;
+}
+
+.dropdown-toggle::after {
+    display: inline-block;
+    margin-left: 8px;
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 0.4em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+    color: rgb(160, 160, 160);
+}
+
+.dropdown-toggle:hover{
+    color: rgb(240, 76, 103);
+}
+
+
+/*Nav End*/
+
+.navbar-brand1{
+    color: black;
+    font-size: 14px;
+    width: 785px;
+    margin-left: 100px;
+    text-align: right;
+}
+
+#collapsibleNavbar{
+    float: right;
+    margin-right:60px;
+    margin-top: 25px;
+}
+
+.nav-link{
+    color: black;
+    font-weight: 500;
+    text-decoration-line: none;
+    font-weight: 549;
+}
+
+.nav-link:hover{
+    text-decoration-line: none;
+    color: rgb(240, 76, 103);
+}
+#logo{
+    padding-top: 20px;
+    height: 80px;
+}
+
+.cart {
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+    /* padding: 15px 26px; */
+    position: relative;
+    display: inline-block;
+    border-radius: 2px;
+}
+.cart:hover{
+    color: rgb(240, 76, 103);
+}
+
+.cart .badge {
+  position: absolute;
+  top: -8px;
+  right: -5px;
+  padding: 2px 5px;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+}
+
+.carousel-control-next-icon {
+    background-color: rgb(189, 176, 176);
+}
+
+.carousel-control-prev-icon{
+    background-color: rgb(189, 176, 176);
+}
+
+.carousel-caption{
+    color: rgb(56, 56, 56);
+    text-align: left;
+    padding-bottom: 11.25rem;
+}
+
+.carousel-button{
+    width: 150px;
+    height: 50px;
+    border: none;
+    background-color: rgb(240, 76, 103);
+    color: white;
+}
+
+.carousel-button:hover{
+    background-color: white;
+    color: rgb(240, 76, 103);
+    border:rgb(240, 76, 103) solid 1px;
+}
+
+#banner{
+    position: relative;
+}
+
+#banner_image{
+    width: 100%;
+    max-height: 150px;
+}
+
+#banner a{
+    color: rgb(46, 46, 46);
+    text-decoration: none;
+    font-weight: 200;
+}
+
+.banner-content{
+    position: absolute; 
+    bottom: 80px;
+    margin-left:330px; 
+    transition: 0.3s;
+    color:rgb(46, 46, 46);
+    width: 95%;
+    text-align: left;
+}
+
+
+.nav3{
+    text-decoration: none;
+    padding: 18px;
+    color: rgb(56, 55, 55);
+}
+
+.nav3:hover{
+    color: rgb(240, 76, 103);
+}
+
+/* The Shoppin Row */
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.col-4{
+    flex-basis: 20%;
+    padding: 1px;
+    max-width: 300px;
+    min-height: 350px;
+    margin-bottom: 50px;
+    margin-left: 1px;
+    margin-right: 1px;
+    border:none;
+    box-shadow: 1px 1px 5px #888888;
+
+}
+
+.col-4:hover{
+    opacity: 60%;
+    cursor: pointer;
+}
+
+.col-4 img{
+    width: 100%;
+}
+
+.ratings{
+    color: gold;
+}
+
+
+/*Exclusive Image */
+#banner1{
+    position: relative;
+}
+
+#banner_image1{
+    width: 100%;
+    max-height: 750px;
+}
+
+#banner1 a{
+    color: rgb(46, 46, 46);
+    text-decoration: none;
+    font-weight: 200;
+}
+
+.banner-content1{
+    position: absolute; 
+    bottom: 180px;
+    margin-left:700px; 
+    transition: 0.3s;
+    color:rgb(46, 46, 46);
+    width: 95%;
+    text-align: left;
+}
+
+.banner1_button{
+    margin-top: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 150px;
+    color: white;
+}
