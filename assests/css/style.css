@@ -288,13 +288,39 @@ transition: transform .2s;
 .clients{
     background-color: 	#faebd7;
     width: 100%;
-    height: 400px;
+    height: 150px;    /*400*/
     padding-top: 90px;
 }
+
+.move{
+    height: 250px;
+    background-color: 	#faebd7;
+}
+
+.profile{
+    height: 60px;
+    width: 60px;
+}
+
+.carousel-item1{
+    height: 250px;
+    width: 100%;
+    color: grey;
+}
+
 
 #say{
     padding-top: 20px;
 }
+
+
+
+
+
+
+
+
+
 
 
 /*Tiles Bottom */
